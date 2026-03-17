@@ -1,11 +1,7 @@
-body {
-  font-family: Arial;
-  text-align: center;
-  margin: 0;
-}
-
-h1 {
-  background: blue;
-  color: white;
-  padding: 15px;
-}
+body{font-family:Arial;margin:0;text-align:center}
+header{background:#0a3d62;color:white;padding:20px}
+nav{background:#1e3799;padding:10px}
+nav a{color:white;margin:10px}
+.hero{padding:50px;background:linear-gradient(to right,#4facfe,#00f2fe);color:white}
+.grid{display:flex;gap:10px;justify-content:center}
+.card{padding:20px;background:white;box-shadow:0 5px 15px rgba(0,0,0,0.2);border-radius:10px}

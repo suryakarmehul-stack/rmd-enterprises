@@ -1,0 +1,11 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  background: blue;
+  color: white;
+  padding: 15px;
+}

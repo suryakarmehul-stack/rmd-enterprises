@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RMD Enterprises</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RMD Enterprises</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<header>
 <h1>RMD Enterprises</h1>
 <p>All Home Appliances Under One Roof</p>
+</header>
 
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#finance">Finance</a>
+<a href="#loan">Loan</a>
+</nav>
+
+<section class="hero">
+<h2>Welcome to RMD Enterprises</h2>
+</section>
+
+<section id="products">
 <h2>Products</h2>
-<ul>
-  <li>TV</li>
-  <li>Fridge</li>
-  <li>Washing Machine</li>
-  <li>Water Purifier</li>
-  <li>Inverter & Battery</li>
-</ul>
+<div class="grid">
+<div class="card">TV</div>
+<div class="card">Fridge</div>
+<div class="card">Washing Machine</div>
+</div>
+</section>
 
-<h2>Contact</h2>
-<p>📞 7588031941 / 8888031941</p>
+<section id="finance">
+<h2>EMI Calculator</h2>
+<input id="price" placeholder="Price">
+<button onclick="emi()">Calculate</button>
+<p id="emiResult"></p>
+</section>
 
-<a href="https://wa.me/917588031941">WhatsApp</a>
+<section id="loan">
+<h2>Loan Apply</h2>
+<input id="name" placeholder="Name">
+<input id="phone" placeholder="Phone">
+<button onclick="send()">Apply</button>
+</section>
 
+<script src="script.js"></script>
 </body>
 </html>
